@@ -17,8 +17,6 @@ source:
 
 build:
   number: 1000
-  skip: true  # [win32]
-
   rpaths:
     - lib/R/lib/
     - lib/
@@ -43,8 +41,7 @@ about:
   summary: Functions for viewing 2-D and 3-D data, including perspective plots, slice plots,
     surface plots, scatter plots, etc. Includes data sets from oceanography.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}\/lib\/R\/share\/licenses\/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}\/lib\/R\/share\/licenses\/GPL-3'
 extra:
    recipe-maintainers:
     - MathiasHaudgaard
