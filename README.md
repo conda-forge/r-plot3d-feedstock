@@ -1,11 +1,11 @@
-About r-plot3d
-==============
+About r-plot3d-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plot3d-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=plot3D
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plot3d-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions for viewing 2-D and 3-D data, including perspective plots, slice plots, surface plots, scatter plots, etc. Includes data sets from oceanography.
 
