@@ -1,4 +1,4 @@
-{% set version = "1.4" %}
+{% set version = "1.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plot3D_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plot3D/plot3D_{{ version }}.tar.gz
-  sha256: d04a45197646fb36bc38870c1c2351cb56b912bd772b1ebfa25eaeef35fda9c0
+  sha256: db6df74844dda9177f2be024762b2f0e63182916e987a09480514d078d55d1f4
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
