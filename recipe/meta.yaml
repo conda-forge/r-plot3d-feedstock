@@ -1,4 +1,4 @@
-{% set version = "1.4.1" %}
+{% set version = "1.4.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plot3D_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plot3D/plot3D_{{ version }}.tar.gz
-  sha256: db6df74844dda9177f2be024762b2f0e63182916e987a09480514d078d55d1f4
+  sha256: 88b17af8b0eeb16e0ab69378c800eb843f5834acc100eb79e54338b9f1a5fd75
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
